@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Quiz Online</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+
+    <!-- Start Navbar-->
+    <nav class="navbar is-dark">
+        <div class="navbar-brand">
+            <div class="navbar-item is-size-3 ">
+                <a class="has-text-light" href="index.html">Quick Quiz Online</a>
+            </div>
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <a href="game.html" class="has-text-light">Play!</a>
+            </div>
+            <div class="navbar-item">
+                <a href="leaderboard.html" class="has-text-light">Leaderboards</a>
+            </div>
+            <div class="navbar-item">
+                <a href="login.html" class="has-text-light">Log Out</a>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar-->
+
+    <div class="container mt-5">
+        <div class="box">
+
+            <div class="block">
+                <div class="is-size-3 is-bold">Let's Play!</div>
+                <div class="is-italic mb-5">Game started 01-01-2022 at 10:30a</div>
+                Your Quiz Progress (<span class="has-text-danger is-bold">3</span> correct answers)
+                <progress class="progress" value="7" max="10">15%</progress>
+
+                <div class="panel is-dark">
+                    <div class="panel-heading">What is the answer?</div>
+                    <div class="panel-block">Click to answer:</div>   
+                    <div class="panel-block"><button class="button is-info is-fullwidth">One</button></div>
+                    <div class="panel-block"><button class="button is-primary is-fullwidth">Two</button></div>
+                    <div class="panel-block"><button class="button is-warning is-fullwidth">Three</button></div>
+                    <div class="panel-block"><button class="button is-danger is-fullwidth">Four</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>
